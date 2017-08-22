@@ -142,3 +142,31 @@ body,ul,li,ol,dd,dt,dt,a {
 .zhibo-item:last-of-type {
 	margin-right: 0;
 }
+/*个人中心*/
+.personal-main {
+	padding: 25px 0 45px 0;
+}
+.personal-left {
+	/*float: left;*/
+	background:#ffffff;
+	box-shadow:0 0 7px 0 rgba(172,172,172,0.50);
+	width:320px;
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+.personal-img {
+	width: 152px;
+	height: 152px;
+	margin-bottom: 23px;
+}
+.personal-name {
+	font-size: 22px;
+	margin-bottom: 7px;
+}
+.personal-name img {
+	width: 20px;
+    height: 19px;
+}
+.personal-right {
+	/*float: left;*/
+}
