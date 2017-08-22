@@ -208,3 +208,17 @@ body,ul,li,ol,dd,dt,dt,a {
 .personal-right {
 	/*float: left;*/
 }
+.integral-warrp {
+	background-image:linear-gradient(-180deg, #ffffff 0%, #f9f9f9 95%);
+	border-radius:1px;
+	padding: 33px 0 33px 22px;
+	border-bottom: 1px solid #ececec;
+	font-size: 22px;
+}
+.integral-cont {
+	padding: 20px 47px 42px 28px;
+}
+.integral-icon {
+	width: 16px;
+    height: 17px;
+}
