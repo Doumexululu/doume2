@@ -60,10 +60,40 @@
 	width: 16px;
 	height: 18px;
 	margin-right: 10px;
+	vertical-align: middle;
 }
 .personal-right {
 	background:#ffffff;
 	box-shadow:0 0 7px 0 rgba(172,172,172,0.50);
 	width:662px;
 	margin-left: 13px;
+}
+.tab-warrp li:nth-child(2) img {
+	width: 19px;
+	height: 20px;
+}
+.tab-warrp li:nth-child(3) img {
+	width: 18px;
+    height: 15px;
+}
+.tab-warrp li:nth-child(4) img {
+	width: 18px;
+}
+.tab-warrp li:nth-child(5) img {
+	width: 18px;
+}
+.integral-warrp {
+	background-image:linear-gradient(-180deg, #ffffff 0%, #f9f9f9 95%);
+	border-radius:1px;
+	padding: 33px 0 33px 22px;
+	border-bottom: 1px solid #ececec;
+	font-size: 22px;
+}
+.integral-cont {
+	padding: 20px 47px 42px 28px;
+}
+.integral-icon {
+	width: 16px;
+    height: 17px;
+	vertical-align: middle;
 }
