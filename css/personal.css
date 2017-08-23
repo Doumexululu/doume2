@@ -356,3 +356,82 @@ input[type="number"]{-moz-appearance:textfield;}
 .margint256 {
 	margin-top: 256px;
 }
+.historys-warrp {
+	padding: 18px 20px 30px 20px;
+}
+.btn-group {
+	margin-bottom: 27px;
+}
+.del {
+	width: 11px;
+	height: 11px;
+}
+.btn-del {
+	border: 1px solid #dc150c;
+    border-radius: 71px;
+    width: 96px;
+    height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #dc150c;
+    line-height: 26px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.history-cont {
+	border-left: 2px solid #e4e4e4;
+	padding-bottom: 17px;
+}
+.history-tit {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	position: relative;
+}
+.history-list {
+	margin-left: 17px;
+	margin-bottom: 10px;
+}
+.history-list input {
+	background-image:linear-gradient(0deg, #f2f4f8 0%, #feffff 100%);
+	border:1px solid #ced0da;
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.05);
+	border-radius:4px;
+	width:14px;
+	height:14px;
+}
+.history-time {
+	margin-right: 30px;
+	margin-left: 3px;
+	color: #8f8f8f;
+}
+.round-grey {
+	position: absolute;
+    background: #e4e4e4;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    left: -17px;
+    top: 8px;
+}
+.history-cont-warrp .history-cont:last-child {
+	padding-bottom: 0px;
+}
+.see-more {
+	background: #10b443;
+    border: 0 solid #979797;
+    border-radius: 40px;
+    width: 159px;
+    height: 40px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 43px;
+}
+.history-cont-warrp {
+	height: 423px;
+    overflow-y: auto;
+    padding-left: 6px;
+}
