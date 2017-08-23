@@ -138,3 +138,11 @@
 	margin-top:45px;
 	cursor: pointer;
 }
+.card-warrp img {
+	width: 193px;
+    height: 124px;
+}
+.card-warrp {
+	margin-top: 35%;
+	text-align: center;
+}
