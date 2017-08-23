@@ -20,4 +20,15 @@ $(function(){
     },function(){
     	$('.head-img-warrp .head-fixed').hide();
     })
+
+    var tabs = function (tab, con) {
+        tab.click(function () {
+            var index = tab.index(this);
+            tab.removeClass('active');
+            $(this).addClass('active');
+            con.removeClass('active');
+            con.eq(index).addClass('active');
+        })
+    };
+    tabs($(".login-head ul span"),$(".login-panel"));
 })
