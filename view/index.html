@@ -5,9 +5,83 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/login.css">
 	<title>豆蜜</title>
 </head>
 <body>
+
+<!-- 注册 -->
+	<div class="fix-login" id="js-sign">
+		<div class="login-con">
+			<div class="login-head">
+				<p class="sign">注册</p>
+			</div>
+			<div class="login-panel active">
+				<form action="">
+					<p>手机号</p>
+					<input  type="tel" type="text" required>
+					<p>验证码</p>
+					<div class="yanzheng">
+						<input type="number" maxlength="6" minlength="6" required >
+						<span id="J_getCode">获取验证码</span>
+						<span id="J_resetCode"><b id="J_second"></b>后重新发送</span>
+					</div>
+					<p>设置密码</p>
+					<input  type="number" minlength="6" required>
+					<div class="checkbox">
+						<input type="checkbox">
+						<a href="">我已阅读《豆蜜网站注册协议》</a>
+					</div>
+					<input type="submit" class="btn btn2"  id="js-btn">
+				</form>
+			</div>
+			<p class="fixed-font">立即登录</p>
+		</div>
+	</div>
+	<!-- 登陆 -->
+	<div class="fix-login" id="js-login">
+		<div class="login-con">
+			<div class="login-head">
+				<img class="Logo" src="../images/Logo.png" alt="">
+				<ul>
+					<span class="active">账号登录</span><span>手机快速登录</span>
+				</ul>
+			</div>
+			<div class="login-panel active">
+				<form action="">
+					<p>手机号</p>
+					<input type="tel" maxlength="11" minlength="11" required />
+					<p>密码</p>
+					<input type="text" required="">
+					<div class="error"><img src="../images/Shape.png" alt="">密码错误</div>
+					<input type="submit" class="btn">
+				</form>
+			</div>
+			<div class="login-panel">
+				<form action="">
+					<p>手机号</p>
+					<input  type="tel" type="text" required>
+					<p>验证码</p>
+					<div class="yanzheng">
+						<input type="number" maxlength="6" minlength="6" required >
+						<span id="J_getCode">获取验证码</span>
+						<span id="J_resetCode"><b id="J_second"></b>后重新发送</span>
+					</div>
+					<div class="error"><img src="../images/Shape.png" alt="">密码错误</div>
+					<input type="submit" class="btn"  id="js-btn">
+				</form>
+			</div>
+			<p class="fixed-font">还没有账号？立即注册</p>
+		</div>
+	</div>
+	<!-- 注册成功 -->
+	<div class="fix-login">
+		<div class="success">
+			<img class="su-1" src="../images/fa-close.png" alt="">
+			<img src="../images/Line.png" alt="">
+			<img class="su-3" src="../images/yes.png" alt="">
+		</div>
+	</div>
 	<header class="header">
 		<div class="container displayflex">
 			<img class="doume-logo" src="../images/doume-logo.png" alt="豆蜜">
@@ -91,4 +165,5 @@
 </body>
 <script src="../js/jquery.min.js"></script>
 <script src="../js/public.js"></script>
+<script src="../js/login.js"></script>
 </html>
