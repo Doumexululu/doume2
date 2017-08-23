@@ -1,8 +1,11 @@
 $(function(){
-    $(".green-top").hover(function(){
-        
-    },function(){
-
+    $(".label").click(function(){
+        // $(this).siblings(".greencheck").css("display","block");
+        if ($(this).siblings(".greencheck").hasClass("disblock")){
+            $(this).siblings(".greencheck").removeClass("disblock");
+        }else {
+            $(this).siblings(".greencheck").addClass("disblock");
+        }
     });
 
 // 登录
