@@ -54,14 +54,14 @@ body,ul,li,ol,dd,dt,dt,a {
 	font-size: 18px;
 }
 .app-download {
-	width: 11px;
+    width: 11px;
     height: 18px;
-	margin: 30px 0 0 20px;
+    margin: 34px 0 0 20px;
 }
 .download {
 	font-size: 18px;
     color: #18c08c;
-    line-height: 80px;
+    line-height: 87px;
 	margin: 0 25px 0 7px;
 	position: relative;
 }
@@ -78,6 +78,7 @@ body,ul,li,ol,dd,dt,dt,a {
 	border-radius:100%;
 	margin: 13px 10px 0 0;
 	position: relative;
+	float: left;
 }
 .head-img {
 	width: 48px;
@@ -86,6 +87,7 @@ body,ul,li,ol,dd,dt,dt,a {
 .names {
 	color: #fff;
     margin-top: 30px;
+    float: left;
 }
 .green-top {
 	border-top: 4px solid #18be8b;
@@ -207,4 +209,18 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .personal-right {
 	/*float: left;*/
+}
+.pro {
+    float: right;
+    width: 103px;
+    display: none;
+}
+.login-2 {
+	width: 103px;
+	float: right;
+	text-align: right;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	padding-top: 30px;
 }
