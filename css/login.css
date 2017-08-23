@@ -73,11 +73,13 @@
     background: #F8FAFC;
     height: 46px;
     padding-left: 15px;
+    box-sizing: border-box;
 }
 .login-panel .error {
     font-size: 12px;
     color: #F04134;
     margin-top: 5px;
+    display: none;
 }
 .login-panel .btn {
     background: url("../images/btn.png") no-repeat center;
