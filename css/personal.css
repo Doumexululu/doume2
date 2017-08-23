@@ -138,7 +138,7 @@
 	margin-top:45px;
 	cursor: pointer;
 }
-.card-warrp img {
+.nocard {
 	width: 193px;
     height: 124px;
 }
@@ -282,4 +282,8 @@ input[type="file"] {
 }
 .disblock {
 	display: block;
+}
+.succeeddata {
+	width: 102px;
+	height: 154px;
 }
