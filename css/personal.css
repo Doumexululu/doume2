@@ -260,6 +260,18 @@ input[type="file"] {
 .data-thirdline input:-ms-input-placeholder {
 		color:#313d4f;
 }
+.reset-input::-webkit-input-placeholder {
+		color:#9fa9ba;
+}
+.reset-input:-moz-placeholder {
+		color:#9fa9ba;
+}
+.reset-input::-moz-placeholder {
+		color:#9fa9ba;
+}
+.reset-input:-ms-input-placeholder {
+		color:#9fa9ba;
+}
 .data-thirdline {
 	margin-bottom: 12px;
 }
@@ -286,4 +298,61 @@ input[type="file"] {
 .succeeddata {
 	width: 102px;
 	height: 154px;
+}
+.selfstatus {
+	background:#fff4f2;
+	/*width: 100%;*/
+	padding: 20px 35px;
+}
+.selfstatus img {
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+}
+.selfstatus span {
+	font-size:16px;
+	color:#676767;
+}
+.reset-warrp {
+	padding: 27px 48px 38px 48px;
+	text-align: center;
+}
+.marginb30 {
+	margin-bottom: 30px;
+}
+.reset-input {
+	background: #ffffff;
+    border: 1px solid #dfe3e9;
+    border-radius: 4px;
+    width: 196px;
+    height: 34px;
+    outline: none;
+    padding-left: 10px;
+}
+.reset-input::-webkit-outer-spin-button,
+.reset-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{-moz-appearance:textfield;}
+.getnum {
+	background-image: linear-gradient(-180deg, #ffffff 0%, #e7e7e7 98%);
+	border: 1px solid #dfe3e9;
+	border-radius: 4px;
+	width: 118px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	color: #7f8fa4;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.deffientline span {
+	line-height: 36px;
+	margin-right: 5px;
+}
+.textleft {
+	text-align: left;
+}
+.margint256 {
+	margin-top: 256px;
 }
