@@ -97,3 +97,44 @@
     height: 17px;
 	vertical-align: middle;
 }
+.integral-tit {
+	font-size:16px;
+	color:#19cb95;
+	margin-bottom: 25px;
+}
+.exchange span {
+	line-height: 26px;
+}
+.exchange-btn {
+	border:1px solid #fd8c13;
+	border-radius:71px;
+	width:78px;
+	height:24px;
+	color: #fd8c13;
+	text-align: center;
+	line-height: 24px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.exchange {
+	margin-bottom: 50px;
+}
+.history-warrp {
+	margin-bottom: 15px;
+}
+.history-warrp span:nth-child(2) {
+	color:#a7a7a7;
+}
+.more {
+	background:#10b443;
+	border:0 solid #979797;
+	border-radius:40px;
+	width:159px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top:45px;
+	cursor: pointer;
+}
