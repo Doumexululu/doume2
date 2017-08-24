@@ -43,5 +43,27 @@ $(function(){
         })
     };
     tabs($(".login-head ul span"),$("#js-login .login-panel"));
-
+//倒计时
+    var countdown=60;
+    $(".js-send").click(function(){
+    	$(this).hide();
+    	$(".js-num").show();
+    	time();
+    })
+    function time(){
+    	var f = setInterval(function(){
+    	if (countdown !== 0) {
+    		countdown--;
+    		$(".js-num").text(countdown + "s");
+    		}
+    		else {
+    			$(".js-send").show();
+    			$(".js-num").hide();
+    			clearInterval(f);
+    			$(".js-num").text(60 + "s");
+    			countdown = 60;
+    			return;
+    		}
+    	},1000);
+    }
 })

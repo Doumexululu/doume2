@@ -251,3 +251,10 @@ body,ul,li,ol,dd,dt,dt,a {
     right: 15px;
     bottom: 10px;
 }
+.font-item-img {
+	width: 66px;
+	height: 66px;
+}
+.font-item-img-warrp {
+	text-align: center;
+}

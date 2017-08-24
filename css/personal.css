@@ -295,6 +295,9 @@ input[type="file"] {
 .disblock {
 	display: block;
 }
+.disnone {
+	display: none;
+}
 .succeeddata {
 	width: 102px;
 	height: 154px;
